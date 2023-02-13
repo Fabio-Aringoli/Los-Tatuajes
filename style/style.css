@@ -1,0 +1,178 @@
+body {
+  font-family: 'Miltonian Tattoo', 'cursive';
+  background-color: #358BBC;
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  height: 2.5em;
+  margin-top: -16px;
+  background-color: #081B8A;
+}
+header nav ul{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+header nav ul li a{
+  color: white;
+}
+
+ul li{
+  list-style: none;
+}
+
+.Mom-Dad{
+  text-align: center;
+}
+
+.contenedor{
+  display: flex;
+  width: 70%;
+  height: 70vh;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  margin-left: 15%;
+}
+
+.contenedor img{
+  flex: 0 0 100%;
+  width: 70%;
+  object-fit: cover;
+  scroll-snap-align: center;
+  margin: 10vh;
+  text-align: center;
+}
+
+h3{
+  font-size: 1.6em;
+}
+
+#Estilos-tattoo{
+  font-size: 3em;
+  font-weight: 900;
+  color: #C70039;
+  text-shadow: 3px 3px 3px black;
+  text-align: center;
+}
+
+.lista-tattoos{
+  padding: 20px;
+  margin: 2em;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+.A-japones, .h2-japones{
+  color: #1FB71F;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.Spam-japones{
+  color: #1FB71F;
+  font-size: 1.2em;
+  text-shadow: 1px 1px 1px black;
+}
+
+.A-tradicional, .h2-tradicional{
+  color: #E74C3C;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.Spam-tradicional{
+  color: #E74C3C;
+  font-size: 1.2em;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.A-realista, .h2-realista{
+  color: #D5EA52;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.Spam-realista{
+  color: #D5EA52;
+  font-size: 1.2em;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.A-blacktattoo, .h2-blacktattoo{
+  color: #EA52DC;
+  text-shadow: 1px 1px 1px #fff;
+}
+
+.Spam-blacktattoo{
+  color: #ea52dc;
+  font-size: 1.2em;
+  text-shadow: 1px 1px 1px #fff;
+}
+
+p{
+  font-size: 1em;
+}
+
+section, .Section-japones, .Section-tradicional, .Section-realista ,.Section-blacktattoo{
+  padding: .5em;
+  margin: 2em;
+  border: 1px solid #081B8A;
+  box-shadow: 0em 0em 1em 0.4em#081B8A;
+  border-radius: 5%;
+  text-align: center;
+}
+
+.Section-japones{
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  border: 1px solid #1FB71F;
+  box-shadow: 0em 0em 1em 0.4em #1FB71F;
+  background-color: lightgray;
+}
+
+.Section-japones p{
+  color: #000;
+}
+
+.Section-tradicional{
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  border: 1px solid #E74C3C;
+  box-shadow: 0em 0em 1em 0.4em #E74C3C;
+  background-color: white;
+}
+
+.Section-realista{
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  border: 1px solid #D5EA52;
+  box-shadow: 0em 0em 1em 0.4em #D5EA52;
+  background-color: #a22;
+}
+
+.Section-realista p{
+  color: #fff;
+}
+
+.Section-blacktattoo{
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  border: 1px solid #EA52DC;
+  box-shadow: 0em 0em 1em 0.4em #EA52DC;
+  background-color: #000;
+}
+
+.Section-blacktattoo p{
+  color: #fff;
+}
+
+footer{
+  text-align: center;
+}
